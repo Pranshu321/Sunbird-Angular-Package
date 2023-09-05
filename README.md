@@ -25,7 +25,7 @@ yarn add filtering-package
 - Import the Widget: In your React component where you want to use the filtering widget, import it at the top of your file:
 - you need to import the filtering.module module. For example:
 
-```cmd
+```js
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
@@ -49,7 +49,7 @@ export class AppModule { }
 
 The project is set up in a modular fashion, with each folder containing code for a specific component or functionality.
 
-```
+```cmd
 project
 ├── lib
 │   ├── components
@@ -332,6 +332,6 @@ Here are some additional resources that may be helpful as you contribute to this
 
 - [Sunbird Forms](https://documenter.getpostman.com/view/25186239/2s93Y2TNAw)
 - [Installing Sunbird on Windows](https://github.com/orgs/Sunbird-Ed/discussions/463)
-- [Angular Development](https://tsdx.io/)
+- [Angular Development](https://angular.io/guide/creating-libraries)
 - [About Diksha](https://ed.sunbird.org/learn/adopters/diksha)
 - [Sunbird ED Collection](https://documenter.getpostman.com/view/25186239/2s93eU2ZZ1#0ba7ecdf-cf32-4b3b-b9dc-e71825093cfd)
